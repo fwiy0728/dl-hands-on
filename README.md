@@ -9,10 +9,10 @@
 
 [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/fwiy0728/dl-hands-on/blob/main/yolov8_object_detection.ipynb)
 
-### MoveNet姿勢推定
-- **movenet_pose_estimation.ipynb**: MoveNet Lightningを使った姿勢推定のGoogle Colabサンプル
+### MediaPipe Pose姿勢推定
+- **mediapipe_pose_estimation.ipynb**: MediaPipe Poseを使った姿勢推定のGoogle Colabサンプル
 
-[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/fwiy0728/dl-hands-on/blob/main/movenet_pose_estimation.ipynb)
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/fwiy0728/dl-hands-on/blob/main/mediapipe_pose_estimation.ipynb)
 
 ### PIMA Diabetes予測
 - **pima_diabetes_prediction.ipynb**: PIMA Indian Diabetes Datasetを使った糖尿病予測のGoogle Colabサンプル
@@ -26,8 +26,8 @@
 2. セルを順番に実行
 3. 画像をアップロードして物体検出を実行
 
-### MoveNet姿勢推定ノートブック
-1. Google Colabで`movenet_pose_estimation.ipynb`を開く
+### MediaPipe Pose姿勢推定ノートブック
+1. Google Colabで`mediapipe_pose_estimation.ipynb`を開く
 2. セルを順番に実行
 3. 人物が写った画像をアップロードして姿勢推定を実行
 
@@ -48,11 +48,11 @@
 - 画像・動画両方に対応
 - カスタムデータセットでの訓練サポート
 
-### MoveNet姿勢推定
-- 高速なリアルタイム姿勢推定
-- 17個のキーポイント検出
-- 軽量モデル（Lightning版）
-- 信頼度スコア付きの結果
+### MediaPipe Pose姿勢推定
+- 高精度な姿勢推定（33個のランドマーク）
+- リアルタイム処理対応
+- Googleが開発したオープンソースライブラリ
+- 最小限のコードで簡単実装
 
 ### PIMA Diabetes予測
 - 機械学習による糖尿病リスク予測
@@ -63,7 +63,7 @@
 
 ## 📖 参考リンク
 - [Ultralytics YOLOv8](https://docs.ultralytics.com/)
-- [TensorFlow Hub - MoveNet](https://tfhub.dev/google/movenet/singlepose/lightning/4)
+- [MediaPipe Pose](https://google.github.io/mediapipe/solutions/pose.html)
 - [PIMA Indian Diabetes Dataset](https://www.kaggle.com/datasets/uciml/pima-indians-diabetes-database)
 - [Scikit-learn Documentation](https://scikit-learn.org/stable/)
 - [Google Colab](https://colab.research.google.com/)
