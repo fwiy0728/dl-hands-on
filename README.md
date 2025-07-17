@@ -7,6 +7,8 @@
 ### YOLOv8物体検出
 - **yolov8_object_detection.ipynb**: YOLOv8を使った物体検出のGoogle Colabサンプル
 
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/fwiy0728/dl-hands-on/blob/main/yolov8_object_detection.ipynb)
+
 ## 🚀 使用方法
 
 ### YOLOv8物体検出ノートブック
