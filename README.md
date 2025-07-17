@@ -14,6 +14,11 @@
 
 [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/fwiy0728/dl-hands-on/blob/main/movenet_pose_estimation.ipynb)
 
+### PIMA Diabetes予測
+- **pima_diabetes_prediction.ipynb**: PIMA Indian Diabetes Datasetを使った糖尿病予測のGoogle Colabサンプル
+
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/fwiy0728/dl-hands-on/blob/main/pima_diabetes_prediction.ipynb)
+
 ## 🚀 使用方法
 
 ### YOLOv8物体検出ノートブック
@@ -25,6 +30,11 @@
 1. Google Colabで`movenet_pose_estimation.ipynb`を開く
 2. セルを順番に実行
 3. 人物が写った画像をアップロードして姿勢推定を実行
+
+### PIMA Diabetes予測ノートブック
+1. Google Colabで`pima_diabetes_prediction.ipynb`を開く
+2. セルを順番に実行
+3. 身体測定データを入力して糖尿病リスクを予測
 
 ## 📋 必要な環境
 - Python 3.8以上
@@ -44,9 +54,18 @@
 - 軽量モデル（Lightning版）
 - 信頼度スコア付きの結果
 
+### PIMA Diabetes予測
+- 機械学習による糖尿病リスク予測
+- 複数アルゴリズムの性能比較
+- 特徴量重要度分析
+- インタラクティブな予測ツール
+- モデルの保存・読み込み機能
+
 ## 📖 参考リンク
 - [Ultralytics YOLOv8](https://docs.ultralytics.com/)
 - [TensorFlow Hub - MoveNet](https://tfhub.dev/google/movenet/singlepose/lightning/4)
+- [PIMA Indian Diabetes Dataset](https://www.kaggle.com/datasets/uciml/pima-indians-diabetes-database)
+- [Scikit-learn Documentation](https://scikit-learn.org/stable/)
 - [Google Colab](https://colab.research.google.com/)
 
 ---
